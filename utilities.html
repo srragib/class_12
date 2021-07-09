@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <title>utilities</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 mb-4"><div class="box bg-danger text-white">bg-danger</div></div>
+                <div class="col-lg-4 mb-4"><div class="box bg-danger bg-gradient text-white">bg-danger bg-gradient</div></div>
+                <div class="col-lg-4 mb-4"><div class="box bg-secondary">bg-secondary</div></div>
+                <div class="col-lg-4 mb-4"><div class="box bg-warning border border-danger border-5">bg-warning <br> border border-danger border-5</div></div>
+                <div class="col-lg-4 mb-4"><div class="box bg-info border border-5 border-success">bg-info <br> border border-5 border-success</div></div>
+                <div class="col-lg-4 mb-4"><div class="box bg-light border">bg-light + border</div></div>
+                <div class="col-lg-4 mb-4"><div class="box bg-dark text-light">bg-dark</div></div>
+                <div class="col-lg-4 mb-4"><div class="box bg-success text-light">bg-success</div></div>
+                <div class="col-lg-4 mb-4"><div class="box bg-success bg-gradient text-light">bg-success bg-gradient</div></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3 mb-4"><div class="box-2 bg-dark rounded-3 text-warning">rounded-3</div></div>
+                <div class="col-lg-3 mb-4">
+                    <div class="box-2 bg-dark rounded-circle text-warning">
+                        <p class="pt-5">rounded-circle</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- display property  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col d-block d-sm-none">
+                    <div class="box p-4 bg-secondary text-light">
+                        <p>d-block d-sm-none</p>
+                        <p>Visible only on xs (extra small) </p>
+                        <p> 320px - 575px </p>
+                        <p>Hidden in other devices. </p>
+                    </div>
+                </div>
+                <div class="col d-none d-sm-block d-md-none">
+                    <div class="box p-4 bg-success text-light">
+                        <p>d-none d-sm-block d-md-none</p>
+                        <p>Visible only on sm (small) </p>
+                        <p> 576px - 767px </p>
+                        <p>Hidden in other devices. </p>
+                    </div>
+                </div>
+                <div class="col d-none d-md-block d-lg-none">
+                    <div class="box p-4 bg-info">
+                        <p>d-none d-md-block d-lg-none</p>
+                        <p>Visible only on md (medium) </p>
+                        <p> 768px - 991px </p>
+                        <p>Hidden in other devices. </p>
+                    </div>
+                </div>
+                <div class="col d-none d-lg-block d-xl-none">
+                    <div class="box p-4 bg-danger text-light">
+                        <p>d-none d-lg-block d-xl-none</p>
+                        <p>Visible only on lg (large) </p>
+                        <p> 992px - 1199px </p>
+                        <p>Hidden in other devices. </p>
+                    </div>
+                </div>
+                <div class="col d-none d-xl-block d-xxl-none">
+                    <div class="box p-4 bg-primary text-light">
+                        <p>d-none d-xl-block d-xxl-none</p>
+                        <p>Visible only on xl (Extra large) </p>
+                        <p> 1200px - 1399px </p>
+                        <p>Hidden in other devices. </p>
+                    </div>
+                </div>
+                <div class="col d-none d-xxl-block">
+                    <div class="box p-4 bg-dark text-light">
+                        <p>d-none d-xxl-block</p>
+                        <p>Visible only on xxl (Extra Extra large) </p>
+                        <p> &ge; 1400px </p>
+                        <p>Hidden in other devices. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- flex property  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-3 bg-light">
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 1</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 2</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 3</div>
+                </div>
+                <div class="col-lg-6 my-3  d-flex flex-row-reverse">
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 1</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 2</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 3</div>
+                </div>
+            </div>
+            <!-- flex direction justify-content -->
+            <div class="row bg-warning">
+                <div class="col-lg-12"><h1 class="text-center text-light">justify-content</h1></div>
+                <div class="col-lg-12 d-flex justify-content-start">
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 1</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 2</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 3</div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-end">
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 1</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 2</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 3</div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 1</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 2</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 3</div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-between">
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 1</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 2</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 3</div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-around">
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 1</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 2</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 3</div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-evenly">
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 1</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 2</div>
+                    <div class="p-3 bg-secondary border border-3 text-light">Flex item 3</div>
+                </div>
+            </div>
+            <!-- Align items -->
+            <div class="row my-5 mh-400 d-flex align-items-center">
+                <!-- in row => d-flex + align-items-center -->
+                <div class="col-lg-6 my-3 bg-danger d-flex justify-content-center">
+                    <div class="box-3">
+                        <p class="text-light">in col => d-flex + justify-content-center</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-3 bg-success d-flex justify-content-center">
+                    <div class="box-4"><p class="text-light">in col => d-flex + justify-content-center</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="text-center">
+        <div class="container">
+            <a href="index.html" class="my-4 w-75 btn btn-lg btn-dark text-uppercase">Index page</a>
+        </div>
+    </div>
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.header , .hero , .body , .bar , .footer{
+    background-color: pink;
+    margin-bottom: 15px ;
+}
+.box{
+    margin-bottom: 10px;
+    min-height: 100px;
+    background-color: skyblue;
+    font-size: 30px;
+    font-weight: 600;
+    color: ;
+    text-align: center;
+
+    border-width: 0 0 0 10px;
+    border-style: solid;
+    border-image: linear-gradient(red , orange) 1;
+    /* border-image: linear-gradient(to bottom, red, purple) 1; */
+  };
+}
+.red{
+    background-color: red;
+}
+.lime{
+    background-color: lime;
+}
