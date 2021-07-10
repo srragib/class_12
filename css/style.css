@@ -13,11 +13,12 @@
 
     border-width: 0 0 0 10px;
     border-style: solid;
-    border-image: linear-gradient(red , orange) 1;
+    border-image: linear-gradient(red , yellow) 1;
     /* border-image: linear-gradient(to bottom, red, purple) 1; */
   }
+
 .red{
-    background-color: red;
+    background-color: red !important;
 }
 .lime{
     background-color: lime;
