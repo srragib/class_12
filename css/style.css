@@ -15,7 +15,7 @@
     border-style: solid;
     border-image: linear-gradient(red , orange) 1;
     /* border-image: linear-gradient(to bottom, red, purple) 1; */
-  };
+  }
 }
 .red{
     background-color: red;
